@@ -7,4 +7,4 @@ class FieldAgent(Agent):
         self.region = region
 
     def report(self):
-        print(f"Agent {self.code_name} reporting. Clearance Level: {self._clearance_level}. Region: {self.region}")
+        print(f"Agent {self.code_name} reporting. Clearance Level: {self._Agent__clearance_level}. Region: {self.region}")

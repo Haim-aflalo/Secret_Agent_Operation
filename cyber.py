@@ -7,4 +7,4 @@ class CyberAgent(Agent):
         self.speciality = speciality
 
     def report(self):
-        print(f"Agent {self.code_name} reporting. Clearance Level: {self._clearance_level}. Speciality: {self.speciality}")
+        print(f"Agent {self.code_name} reporting. Clearance Level: {self._Agent__clearance_level}. Speciality: {self.speciality}")
